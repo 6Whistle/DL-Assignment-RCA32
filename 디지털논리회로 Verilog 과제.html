@@ -1,0 +1,1768 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="디지털논리회로%20Verilog%20과제.fld/filelist.xml">
+<link rel=Edit-Time-Data
+href="디지털논리회로%20Verilog%20과제.fld/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>이 준휘</o:Author>
+  <o:LastAuthor>준휘 이</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>300</o:TotalTime>
+  <o:Created>2024-08-08T02:48:00Z</o:Created>
+  <o:LastSaved>2024-08-08T02:48:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>512</o:Words>
+  <o:Characters>2919</o:Characters>
+  <o:Lines>24</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3425</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=dataStoreItem
+href="디지털논리회로%20Verilog%20과제.fld/item0001.xml"
+target="디지털논리회로%20Verilog%20과제.fld/props002.xml">
+<link rel=themeData href="디지털논리회로%20Verilog%20과제.fld/themedata.thmx">
+<link rel=colorSchemeMapping
+href="디지털논리회로%20Verilog%20과제.fld/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>KO</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:"맑은 고딕";
+	panose-1:2 11 5 3 2 0 0 2 0 4;
+	mso-font-charset:129;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
+@font-face
+	{font-family:"\@맑은 고딕";
+	mso-font-charset:129;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:107%;
+	mso-pagination:none;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"맑은 고딕",sans-serif;
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:40.0pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:4.0gd;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:107%;
+	mso-pagination:none;
+	text-autospace:none;
+	word-break:break-hangul;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"맑은 고딕",sans-serif;
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ligatures:none;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:107%;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:239021310;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-556923224 730202570 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-start-at:3;
+	mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:38.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:80.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:100.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:140.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:160.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:200.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:565649303;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-151347004 1643405844 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:298.2pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:320.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:12.0cm;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:360.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:380.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:400.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:420.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:440.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:460.2pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:591284173;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1177107180 1712767520 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:38.0pt;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-20.0pt;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:80.0pt;
+	text-indent:-20.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:100.0pt;
+	text-indent:-20.0pt;}
+@list l2:level5
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-20.0pt;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:140.0pt;
+	text-indent:-20.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:160.0pt;
+	text-indent:-20.0pt;}
+@list l2:level8
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-20.0pt;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:200.0pt;
+	text-indent:-20.0pt;}
+@list l3
+	{mso-list-id:604265938;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1543493030 -1712014350 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:38.0pt;
+	text-indent:-18.0pt;
+	font-family:"맑은 고딕",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:80.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:100.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:140.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:160.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:180.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:200.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:847449479;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1492322042 867105388 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:298.4pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:320.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:340.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:360.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:380.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:400.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:420.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:440.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:460.4pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:1284456732;
+	mso-list-type:hybrid;
+	mso-list-template-ids:916218704 -1079188114 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:56.0pt;
+	text-indent:-18.0pt;
+	font-family:"맑은 고딕",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:78.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:98.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:118.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:138.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:158.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:178.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:218.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6
+	{mso-list-id:1777215528;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1933085558 1835424444 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:56.0pt;
+	text-indent:-18.0pt;
+	font-family:"맑은 고딕",sans-serif;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:78.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:98.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:118.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:138.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:158.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:178.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:218.0pt;
+	text-indent:-20.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"표준 표";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"맑은 고딕",sans-serif;
+	mso-ascii-font-family:"맑은 고딕";
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"맑은 고딕";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"맑은 고딕";
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=KO style='tab-interval:40.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:107%'>디지털논리회로 <span lang=EN-US>Verilog </span>과제<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='mso-bidi-font-size:10.0pt;line-height:107%'>2018202046 </span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>이준휘<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l2 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-fareast-font-family:
+"맑은 고딕";mso-fareast-theme-font:minor-latin;mso-bidi-font-family:"맑은 고딕";
+mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>문제 설명<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:10.0pt;mso-char-indent-count:1.0'><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>해당 문제는 <span lang=EN-US>32bit</span>의<span lang=EN-US>
+Ripple Carry Adder(RCA), </span>즉 <span lang=EN-US>32</span>비트끼리의 덧셈 가산기를 <span
+lang=EN-US>Verilog </span>상에서 구현하는 것을 목표로 한다<span lang=EN-US>. </span>모듈명<span
+lang=EN-US>(RCA32)</span>과 모듈에 들어가는 기본적인 인자는 제시되고있으며<span lang=EN-US>, </span>필자는
+해당 변수를 가지고 코드를 작성하여 <span lang=EN-US>RCA32</span>를 완성하고<span lang=EN-US>,
+testbench</span>를 통해 이를 시연해본다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.0pt;
+line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l2 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-fareast-font-family:
+"맑은 고딕";mso-fareast-theme-font:minor-latin;mso-bidi-font-family:"맑은 고딕";
+mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>해결과정<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l5 level1 lfo4'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-ascii-font-family:
+"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:"맑은 고딕";
+mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="그림_x0020_1" o:spid="_x0000_s1026" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:133.1pt;
+ margin-top:1pt;width:184.3pt;height:132pt;z-index:251658240;visibility:visible;
+ mso-wrap-style:square;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
+ mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
+ mso-position-horizontal:right;mso-position-horizontal-relative:margin;
+ mso-position-vertical:absolute;mso-position-vertical-relative:text'>
+ <v:imagedata src="디지털논리회로%20Verilog%20과제.fld/image001.png" o:title=""/>
+ <w:wrap type="square" anchorx="margin"/>
+</v:shape><![endif]--><![if !vml]><img width=184 height=132
+src="디지털논리회로%20Verilog%20과제.fld/image001.png" align=right hspace=12
+v:shapes="그림_x0020_1"><![endif]><span lang=EN-US style='mso-bidi-font-size:
+10.0pt;line-height:107%'>module adder1bit(1-bit full adder)<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>해당 모델의 경우 <span lang=EN-US>1-bit
+full adder</span>의 역할을 수행한다<span lang=EN-US>. input a, b</span>는 해당 자리에서 덧셈을 하는
+인자다<span lang=EN-US>. </span>그리고 <span lang=EN-US>input cin</span>은 이전 자리에서 올림으로
+오는 인자다<span lang=EN-US>. output s</span>는 해당 자리의 덧셈의 결과이고<span lang=EN-US>,
+output cout</span>은 해당 자리에서 나오는 올림수다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:240.0pt;text-indent:40.0pt'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>-&gt;full adder </span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>기호<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>s</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>의 값은<span lang=EN-US> a, b,
+cin</span>의 값이 홀수개만 <span lang=EN-US>true</span>여야 <span lang=EN-US>true</span>로
+나와야 한다<span lang=EN-US>. </span>해당 부분의 논리식은 <span lang=EN-US>s = a </span></span><!--[if supportFields]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><span
+style='mso-element:field-begin'></span><span style='mso-spacerun:yes'> </span>eq
+\o\ac(</span><span style='mso-bidi-font-size:10.0pt;line-height:107%'>○<span
+lang=EN-US>,+)</span></span><![endif]--><span lang=EN-US style='mso-bidi-font-size:
+10.0pt;line-height:107%'><![if !supportFields]>+<![endif]></span><!--[if supportFields]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><span
+style='mso-element:field-end'></span></span><![endif]--><span lang=EN-US
+style='mso-bidi-font-size:10.0pt;line-height:107%'> b </span><!--[if supportFields]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><span
+style='mso-element:field-begin'></span><span style='mso-spacerun:yes'> </span>eq
+\o\ac(</span><span style='mso-bidi-font-size:10.0pt;line-height:107%'>○<span
+lang=EN-US>,+)</span></span><![endif]--><span lang=EN-US style='mso-bidi-font-size:
+10.0pt;line-height:107%'><![if !supportFields]>+<![endif]></span><!--[if supportFields]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><span
+style='mso-element:field-end'></span></span><![endif]--><span lang=EN-US
+style='mso-bidi-font-size:10.0pt;line-height:107%'> cin</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>로 표현할 수 있다<span lang=EN-US>.
+</span>하지만 베릴로그에는 <span lang=EN-US>XOR gate </span>논리곱이 존재하지 않음으로 이를 <span
+lang=EN-US>s = a b’ cin’ + a’ b cin’ + a’ b’ cin + a b cin</span>으로 풀어서 표현한다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>cout</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>의 값은<span lang=EN-US> a, b,
+cin</span>의 값 중 <span lang=EN-US>2</span>개 이상이 <span lang=EN-US>true</span>일 경우
+<span lang=EN-US>true</span>여야 한다<span lang=EN-US>. </span>해당 부분의 논<span
+lang=EN-US>-</span>리식은 <span lang=EN-US>cout = a b + b cin + cin a</span>로 표현할 수
+있다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="그림_x0020_3" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:452pt;
+ height:284pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="디지털논리회로%20Verilog%20과제.fld/image002.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=452 height=284
+src="디지털논리회로%20Verilog%20과제.fld/image002.png" v:shapes="그림_x0020_3"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.0pt;
+line-height:107%'>-&gt;1-bit full adder </span><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>회로도<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.0pt;
+line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l5 level1 lfo4'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-ascii-font-family:
+"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:"맑은 고딕";
+mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>module
+adder4bit(4-bit RCA)<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>해당 모델은 <span lang=EN-US>1bit</span>의
+<span lang=EN-US>full adder 4</span>개를 병렬로 배치한 회로다<span lang=EN-US>. </span>해당 회로를
+통해 <span lang=EN-US>4bit</span>끼리의 덧셈 연산을 수행할 수 있다<span lang=EN-US>. </span>해당 회로는
+<span lang=EN-US>input [3:0]</span>으로 <span lang=EN-US>a4</span>와<span
+lang=EN-US>, b4</span>를 받는다<span lang=EN-US>. </span>그리고 이전 자리에서 올라오는 자리수인 <span
+lang=EN-US>output cin4</span>를 받는다<span lang=EN-US>. output</span>으로는 각 자리의 출력인
+<span lang=EN-US>output [3:0] s4</span>와 <span lang=EN-US>MSB</span>자리에서 나오는 올림수인
+<span lang=EN-US>output cout4</span>가 있다<span lang=EN-US>. </span>마지막으로 <span
+lang=EN-US>MSB</span>를 각각의 <span lang=EN-US>full adder</span>를 연결할<span
+lang=EN-US> wire [2:0] w</span>가 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="그림_x0020_4" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:369pt;
+ height:92pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="디지털논리회로%20Verilog%20과제.fld/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=369 height=92
+src="디지털논리회로%20Verilog%20과제.fld/image003.png" v:shapes="그림_x0020_4"><![endif]></span><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>-&gt;4-bit RCA </span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>형태<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>우선<span lang=EN-US> adder1bit</span>인
+<span lang=EN-US>first</span>를 선언한다<span lang=EN-US>. </span>해당 모듈에서는 <span
+lang=EN-US>a4[0], b4[0], cin4</span>를 인자로 받아 덧셈을 진행하여 <span lang=EN-US>s4[0]</span>를
+출력하고 올림수를 <span lang=EN-US>w[0]</span>에 전달한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>second</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>는 해당<span lang=EN-US> a4[1],
+b4[1], </span>그리고 올림수인 <span lang=EN-US>w[0]</span>를 인자로 받아 덧셈을 진행하여 <span
+lang=EN-US>s4[1]</span>을 출력하고 올림수를 <span lang=EN-US>w[1]</span>에 전달한다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>third</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>는 해당<span lang=EN-US> a4[2],
+b4[2], </span>그리고 올림수인 <span lang=EN-US>w[1]</span>를 인자로 받아 덧셈을 진행하여 <span
+lang=EN-US>s4[2]</span>을 출력하고 올림수를 <span lang=EN-US>w[2]</span>에 전달한다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>마지막으로<span lang=EN-US> fourth</span>에서는
+해당<span lang=EN-US> a4[3], b4[3], </span>그리고 올림수인 <span lang=EN-US>w[2]</span>를
+인자로 받아 덧셈을 진행하여 <span lang=EN-US>s4[3]</span>을 출력하고 올림수<span lang=EN-US> cout4</span>를
+출력한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l5 level1 lfo4'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-ascii-font-family:
+"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:"맑은 고딕";
+mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>adder2byte(16-bit
+RCA)<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>해당 모델은 <span lang=EN-US>4-bit
+RCA 4</span>개를 이용하여 <span lang=EN-US>16-bit RCA</span>를 구현한다<span lang=EN-US>. </span>해당
+회로를 통해 <span lang=EN-US>16</span>비트끼리의 덧셈 연산을 수행할 수 있다<span lang=EN-US>. input
+[15:0] a2b, b2b</span>를 받고 <span lang=EN-US>LSB</span>에 더하는 인자인 <span
+lang=EN-US>input cin2b</span>를 받는다<span lang=EN-US>. </span>이를 <span
+lang=EN-US>output [15:0] s2b</span>과 다음 회로의 <span lang=EN-US>LSB</span>에 넘길 <span
+lang=EN-US>output cout2b </span>값으로 반환한다<span lang=EN-US>. wire [2:0]</span>를 통해
+각 자리마다 넘어가는 올림수를 전달한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="그림_x0020_5" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:406pt;
+ height:106pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="디지털논리회로%20Verilog%20과제.fld/image004.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=406 height=106
+src="디지털논리회로%20Verilog%20과제.fld/image004.png" v:shapes="그림_x0020_5"><![endif]></span><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>-&gt;16-bit RCA </span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>형태<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>우선<span lang=EN-US> adder4bit</span>인<span
+lang=EN-US> byte1</span>를 선언한다<span lang=EN-US>. </span>해당 모듈에서는 <span
+lang=EN-US>a2b[3:0], b2b[3:0], cin2b</span>를 인자로 받아 덧셈을 진행하여 <span lang=EN-US>s2b[3:0]</span>를
+출력하고 올림수를 <span lang=EN-US>wb[0]</span>에 전달한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>byte2</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>는 해당 <span lang=EN-US>a2b[7:4],
+b2b[7:4], </span>그리고 올림수인 <span lang=EN-US>wb[0]</span>를 인자로 받아 덧셈을 진행하여 <span
+lang=EN-US>s2b[7:4]</span>를 출력하고 올림수를 <span lang=EN-US>wb[1]</span>에 전달한다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>byte3</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>는 해당 <span lang=EN-US>a2b[11:8],
+b2b[11:8], </span>그리고 올림수인<span lang=EN-US> wb[1]</span>를 인자로 받아 덧셈을 진행하여 <span
+lang=EN-US>s2b[11:8]</span>를 출력하고 올림수를 <span lang=EN-US>wb[2]</span>에 전달한다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>마지막으로<span lang=EN-US> byte4</span>에서는
+해당 <span lang=EN-US>a2b[15:12], b2b[15:12], </span>그리고 올림수인<span lang=EN-US>
+wb[2]</span>를 인자로 받아 덧셈을 진행하여 <span lang=EN-US>s2b[15:12]</span>를 출력하고 올림수를 <span
+lang=EN-US>wb[0]</span>에 전달한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l5 level1 lfo4'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-ascii-font-family:
+"맑은 고딕";mso-fareast-font-family:"맑은 고딕";mso-hansi-font-family:"맑은 고딕";
+mso-bidi-font-family:"맑은 고딕"'><span style='mso-list:Ignore'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>model RCA32<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>해당 모델은 <span lang=EN-US>adder2byte
+</span>모델 <span lang=EN-US>2</span>개를 이용하여 구현된다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><span
+style='mso-spacerun:yes'> </span>input [31:0] A</span><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>와<span lang=EN-US> B, </span>그리고 <span lang=EN-US>LSB</span>에
+더해지는 올림수인 <span lang=EN-US>input Cin</span>이 있다<span lang=EN-US>. Cin</span>이 존재하는
+이유는 만약 <span lang=EN-US>Cin</span>이 없도록 회로를 짤 경우<span lang=EN-US> LSB</span>를 더하는
+과정은 <span lang=EN-US>half adder</span>를 이용해야만 하기 때문에 회로도가 통일이 되지 않아 복잡해질 수 있다<span
+lang=EN-US>. </span>이에 <span lang=EN-US>full adder</span>를 사용하는 대신 <span
+lang=EN-US>Cin</span>에 <span lang=EN-US>0</span>을 넣음으로써 <span lang=EN-US>half
+adder</span>의 역할을 수행할 수 있다<span lang=EN-US>. output [31:0] S</span>는 <span
+lang=EN-US>A, B</span>의 합을 출력되는 곳이다<span lang=EN-US>. output Cout</span>은<span
+lang=EN-US> MSB</span>의 연산 결과로 생기는 올림수를 나타내는 출력이다<span lang=EN-US>. <o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>Cin</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>과 <span lang=EN-US>Cout</span>이
+있음으로 인해 회로는 확장성에서 용이해진다<span lang=EN-US>. </span>만약 <span lang=EN-US>64</span>비트의
+<span lang=EN-US>RCA</span>를 구현하고 싶은 경우 <span lang=EN-US>RCA32</span>를 병렬로 연결함으로써
+해당 회로를 구현할 수 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="그림_x0020_6" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:393pt;
+ height:186pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="디지털논리회로%20Verilog%20과제.fld/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=393 height=186
+src="디지털논리회로%20Verilog%20과제.fld/image005.png" v:shapes="그림_x0020_6"><![endif]></span><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>-&gt;RCA32</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>의 블록 다이어그램<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>우선<span lang=EN-US> adder2byte</span>인
+<span lang=EN-US>add1</span>를 선언한다<span lang=EN-US>. </span>해당 모듈에서는 <span
+lang=EN-US>A[15:0], B[15:0], Cin</span>를 인자로 받아 덧셈을 진행하여 <span lang=EN-US>S[15:0]</span>를
+출력하고 올림수를 <span lang=EN-US>w1(wire)</span>에 전달한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>byte2</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>는 해당 <span lang=EN-US>A[31:16],
+B[31:16], </span>그리고 올림수인<span lang=EN-US> w1</span>를 인자로 받아 덧셈을 진행하여 <span
+lang=EN-US>S[31:16]</span>를 출력하고 올림수를 <span lang=EN-US>Cout</span>에 전달한다<span
+lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:38.0pt;mso-para-margin-left:0gd;
+text-indent:-18.0pt;mso-list:l2 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%;mso-fareast-font-family:
+"맑은 고딕";mso-fareast-theme-font:minor-latin;mso-bidi-font-family:"맑은 고딕";
+mso-bidi-theme-font:minor-latin'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>결과 검증<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:56.0pt;mso-para-margin-left:0gd'><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'>test bench</span><span
+style='mso-bidi-font-size:10.0pt;line-height:107%'>에서는<span lang=EN-US> integer
+i</span>와<span lang=EN-US> j</span>를 활용하여 검증을 진행한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="그림_x0020_7" o:spid="_x0000_i1025" type="#_x0000_t75" style='width:443pt;
+ height:254pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="디지털논리회로%20Verilog%20과제.fld/image006.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=443 height=254
+src="디지털논리회로%20Verilog%20과제.fld/image006.png" v:shapes="그림_x0020_7"><![endif]></span><span
+lang=EN-US style='mso-bidi-font-size:10.0pt;line-height:107%'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.0pt;
+line-height:107%'>-&gt;testbench </span><span style='mso-bidi-font-size:10.0pt;
+line-height:107%'>결과<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.0pt;
+line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:40.0pt'><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>우선<span lang=EN-US> for</span>문 <span lang=EN-US>2</span>개와
+<span lang=EN-US>i, j</span>를 활용하여 <span lang=EN-US>0~4</span>와 <span
+lang=EN-US>0~4</span>와의 덧셈 <span lang=EN-US>16</span>가지 경우가 잘 적용되었는지 확인하였다<span
+lang=EN-US>. </span>위의 사진을 보면 <span lang=EN-US>s</span>의 값이 해당 값에 따라 적절하게 바뀌는 것을
+볼 수 있다<span lang=EN-US>. </span>이는 가장 작은 모듈 <span lang=EN-US>full adder</span>가
+정상적으로 구동된다는 것을 의미한다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:40.0pt'><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>그 후에 확인한 것은 <span lang=EN-US>RCA4bit module </span>안의<span
+lang=EN-US> full adder </span>간의 자리수가 잘 전달되는지 확인하는 것이다<span lang=EN-US>. a, b</span>가
+<span lang=EN-US>4</span>일 때와 <span lang=EN-US>8</span>일 때 모두 잘 전달되어 각각 <span
+lang=EN-US>8, 16</span>을 잘 표현하는 것을 볼 수 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:40.0pt'><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>다음으로 확인한 것은 <span lang=EN-US>RCA16bit module </span>안의
+<span lang=EN-US>RCA4bit</span>끼리 값이 잘 전달되는지를 확인하는 것이다<span lang=EN-US>. a, b</span>가
+각각 <span lang=EN-US>2^7, 2^11, 2^15</span>일 때 값이 <span lang=EN-US>2^8, 2^12,
+2^16</span>으로 모듈 간 자리수 전달이 제대로 이루어지는 것을 확인할 수 있다<span lang=EN-US>. <o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:40.0pt'><span style='mso-bidi-font-size:
+10.0pt;line-height:107%'>마지막으로 확인할 것은 만약 <span lang=EN-US>2^31 + 2^31</span>를 진행할
+경우 <span lang=EN-US>Cout</span>에 <span lang=EN-US>1</span>이 전달되는지 확인하는 것이다<span
+lang=EN-US>. </span>이에 위의 사진에서는 <span lang=EN-US>Cout </span>값이 <span
+lang=EN-US>1</span>로 올라가 있는 것을 보아 정상임을 알 수 있다<span lang=EN-US>.<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.0pt;
+line-height:107%'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
